@@ -6,9 +6,9 @@
 
   ![initial nih login page](/images/1_NIH_login.png)
 
-3. Search for your university. If your university is listed, follow steps for [Registering with your university Account](#Option-1-–-registering-with-a-university-account) below. If your university is not listed, follow steps for registering with [Login.gov](#Option-2-–-registering-with-Login.gov) below.
+3. Search for your university. If your university is listed, follow steps for [Registering with your university Account](#university) below. If your university is not listed, follow steps for registering with [Login.gov](#login.gov) below.
    
-## Option 1 – registering with a university account
+## Option 1 – registering with a university account <a name="university"></a>
 
 _If your university is listed in the dropdown, you can use your university username and password to complete the registration process. Follow these steps:_
 
@@ -26,7 +26,7 @@ _If your university is listed in the dropdown, you can use your university usern
 
    ![Final Form](/images/4_final_formv2.png)
    
-## Option 2 – registering with Login.gov
+## Option 2 – registering with Login.gov <a name="login.gov"></a>
 *A [Login.gov](https://login.gov/) account is a free account that members of the public can create to access a variety of government resources. If your university is not listed in the dropdown, you can use a Login.gov account to complete the registration process. Follow these steps:*
 
 4. 4. Search for and select **Login.gov** (or **National Science Foundation** if you have an account there) and follow the prompts to log in to your account. The images shown here are only for *login.gov* authentication. If you do not have either type of account, [follow these instructions to create a free Login.gov account now]((https://login.gov/help/get-started/create-your-account/)).
