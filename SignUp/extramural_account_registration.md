@@ -6,9 +6,9 @@
 
   ![initial nih login page](/images/1_NIH_login.png)
 
-3. Search for your university. If your university is listed, follow steps for `Registering with your university Account` below. If your university is not listed, follow steps for registering with `Login.gov` below.
+3. Search for your university. If your university is listed, follow steps for [Registering with your university Account](#Option-1-–-registering-with-a-university-account) below. If your university is not listed, follow steps for registering with [Login.gov](#Option-2-–-registering-with-Login.gov) below.
    
-## Option 1 – Registering with a University Account
+## Option 1 – registering with a university account
 
 _If your university is listed in the dropdown, you can use your university username and password to complete the registration process. Follow these steps:_
 
@@ -26,10 +26,10 @@ _If your university is listed in the dropdown, you can use your university usern
 
    ![Final Form](/images/4_final_formv2.png)
    
-## Option 2 – Registering with Login.gov
+## Option 2 – registering with Login.gov
 *A [Login.gov](https://login.gov/) account is a free account that members of the public can create to access a variety of government resources. If your university is not listed in the dropdown, you can use a Login.gov account to complete the registration process. Follow these steps:*
 
-4. Search for and Select **Login.gov** or **National Science Foundation** (if you have an account there) and follow the prompts to log in to your account. The images shown here are only for the *login.gov* authentication. If you do not have a Login.gov account, you can create one following [these instructions](https://login.gov/help/get-started/create-your-account/).
+4. 4. Search for and select **Login.gov** (or **National Science Foundation** if you have an account there) and follow the prompts to log in to your account. The images shown here are only for *login.gov* authentication. If you do not have either type of account, [follow these instructions to create a free Login.gov account now]((https://login.gov/help/get-started/create-your-account/)).
 
    ![Sign In Login.gov](/images/6_signin_logingov.png)
 
