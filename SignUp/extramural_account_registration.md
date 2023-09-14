@@ -29,7 +29,7 @@ _If your university is listed in the dropdown, you can use your university usern
 ## Option 2 – Registering with Login.gov <a name="login.gov"></a>
 *A [Login.gov](https://login.gov/) account is a free account that members of the public can create to access a variety of government resources. If your university is not listed in the dropdown, you can use a Login.gov account to complete the registration process. Follow these steps:*
 
-4. 4. Search for and select **Login.gov** (or **National Science Foundation** if you have an account there) and follow the prompts to log in to your account. The images shown here are only for *login.gov* authentication. If you do not have either type of account, [follow these instructions to create a free Login.gov account now]((https://login.gov/help/get-started/create-your-account/)).
+4. Search for and select **Login.gov** (or **National Science Foundation** if you have an account there) and follow the prompts to log in to your account. The images shown here are only for *login.gov* authentication. If you do not have either type of account, [follow these instructions to create a free Login.gov account now](https://login.gov/help/get-started/create-your-account/).
 
    ![Sign In Login.gov](/images/6_signin_logingov.png)
 
