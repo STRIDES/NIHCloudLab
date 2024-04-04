@@ -24,7 +24,7 @@ _If your university is listed in the dropdown, you can use your university usern
 
 7. Fill out the form. Enter your name, email address, choice of cloud service provider, a description of how you plan to use NIH Cloud Lab, your NIH program officer’s name, and your NIH grant number (if applicable). Click **Submit** and you are finished. You will receive an email from cloudlab@nih.gov when your credits are ready – typically within a few days.
 
-   ![Final Form](/images/4_final_formv2.png)
+   ![Final Form](/images/.png)
    
 ## Option 2 – Registering with Login.gov <a name="login.gov"></a>
 *A [Login.gov](https://login.gov/) account is a free account that members of the public can create to access a variety of government resources. If your university is not listed in the dropdown, you can use a Login.gov account to complete the registration process. Follow these steps:*
@@ -43,4 +43,4 @@ _If your university is listed in the dropdown, you can use your university usern
 
 7. Fill out the form. You won't be able to enter your name, and your email will be pre-populated. Enter your choice of cloud service provider, a description of how you plan to use NIH Cloud Lab, your NIH program officer’s name, and your NIH grant number (if applicable). Click **Submit** and you are finished. You will receive an email from cloudlab@nih.gov when your credits are ready – typically within a few days.
    
-   ![Final Form](/images/4_final_formv2.png)
+   ![Final Form](/images/azure_coming_soon.png)
