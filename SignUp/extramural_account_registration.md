@@ -1,5 +1,8 @@
 # Registering for NIH Cloud Lab – Instructions for NIH-Affiliated Researchers
 
+> [!IMPORTANT]  
+> *If you receive an error message or have any trouble completing these steps, please don't hesitate to contact us at CloudLab@nih.gov. Be sure to add "Support" at the beginning of your subject line so that we can properly route your request.*
+
 1. From an incognito or private browsing window, navigate to [this registration page](https://nih-cloudlab.firebaseapp.com).
 
 2. Scroll down and click **Research Organization**. If you select another login option, your registration will not work.
