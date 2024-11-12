@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: STRIDES/NIHCloudLab
-          ref: main
+          ref: dev/gh-action
           path: reusable-workflow-repo
 
       - name: Set up Python

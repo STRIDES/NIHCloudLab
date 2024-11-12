@@ -7,6 +7,6 @@ on:
 jobs:
   link_check:
     name: 'Link Check'
-    uses: STRIDES/NIHCloudLab/.github/workflows/check-links.yaml@main
+    uses: STRIDES/NIHCloudLab/.github/workflows/check-links.yaml@dev/gh-action
     with:
       repo_link_ignore_list: ""
