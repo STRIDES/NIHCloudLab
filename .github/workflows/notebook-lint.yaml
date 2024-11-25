@@ -1,4 +1,4 @@
-name: 'Lint Notebook'
+name: 'Lint Notebook (reusable)'
 on:
   workflow_call:
     inputs:
