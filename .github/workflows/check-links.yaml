@@ -24,7 +24,7 @@ jobs:
         with:
             repository: STRIDES/NIHCloudLab
             path: reusable-workflow-repo
-            ref: dev/gh-action
+            ref: main
 
       - name: Link Check
         run: |

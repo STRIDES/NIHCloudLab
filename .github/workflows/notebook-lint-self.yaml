@@ -9,6 +9,6 @@ permissions:
 jobs:
   lint:
     name: 'Linting'
-    uses: STRIDES/NIHCloudLab/.github/workflows/notebook-lint.yaml@dev/gh-action
+    uses: STRIDES/NIHCloudLab/.github/workflows/notebook-lint.yaml@main
     with:
       directory: .
