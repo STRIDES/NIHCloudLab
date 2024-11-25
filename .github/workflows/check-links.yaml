@@ -1,4 +1,4 @@
-name: 'Check Links'
+name: 'Check Links (reusable)'
 on:
   workflow_call:
     inputs:
