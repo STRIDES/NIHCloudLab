@@ -1,7 +1,10 @@
 # NIHCloudLab
 NIH Cloud Lab is a resource developed by NIH’s CIT Cloud Services Team to support STRIDES’ mission of enabling and modernizing biomedical research through the cloud. Through this resource, NIH-funded researchers can become more efficient and comfortable in leveraging the cloud for their research purposes.
 
-We offer Cloud Lab for each of the three big Cloud Service Providers with a separate GitHub repository for each one. Visit these repositories for more information and collections of tutorials for [AWS](https://github.com/STRIDES/NIHCloudLabAWS), [Azure](https://github.com/STRIDES/NIHCloudLabAzure), and [Google Cloud](https://github.com/STRIDES/NIHCloudLabGCP).
+We provide a Cloud Lab for each of the three major Cloud Service Providers, each with its own dedicated GitHub repository! Visit these repositories for more information and collections of tutorials:
+- [AWS](https://github.com/STRIDES/NIHCloudLabAWS)
+- [Azure](https://github.com/STRIDES/NIHCloudLabAzure)
+- [Google Cloud](https://github.com/STRIDES/NIHCloudLabGCP).
 
 
 We have compiled a variety of tutorials from different sources to help you navigate through various research methods using cloud platforms. These tutorials cover a wide range of topics including biomedical workflows, artificial intelligence, medical imaging, and more. Each tutorial is designed to guide you through specific tasks using services from three major cloud service providers: Azure, AWS, and GCP. Whether you are working with a virtual machine, using a familiar environment like Jupyter Notebooks, or other cloud-managed services, these tutorials will provide you with the necessary steps and insights to efficiently accomplish your research goals. A few of the tutorials available in our tutorial repositories are highlighted below. Please navigate to our CSP-specific repositories to find the full list of available tutorials. Let's dive into the exciting world of cloud computing!
