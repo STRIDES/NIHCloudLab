@@ -3,7 +3,7 @@ The table below provides information on each codebot based on topics of general 
 
 
 > [!IMPORTANT]
-> Note: Multipurpose evaluated if the bot could conduct general LLM tasks and code development. Speed scores consisted of the max speed it took bots to provide outputs. Consistency was proven true if the output given by the bot remained the same when the same question was asked twice.
+> The **Multipurpose** feature was evaluated based on if the bot could conduct general LLM tasks and code development. **Speed** scores consisted of the maximum speed bots took to provide their outputs. **Consistency** was proven true if the output given by the bot remained the same when the same question was asked twice.
 <table>
     <thead>
         <tr>
