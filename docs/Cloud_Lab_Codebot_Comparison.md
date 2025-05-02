@@ -7,11 +7,11 @@ The word ‘codebot’ in the document refers to tools that comprise of a user i
 > **Disclaimer:** This document does not aim to discourage users from using any of the codebots mentioned. Our primary goal for this document is to showcase the merits and features offered by each codebot. The coding tests conducted use a limited number of prompts, and our observations are derived from this small subset of tests. Results may vary depending on the data and prompts given to the bots.
 
 ## Table of Contents
-Codebot Overview
-General Features Comparison Table
-Code Development Comparison Table
-Conclusion
-Appendix
+1. [Codebot Overview](#codebot-overview)
+2. [General Features Comparison Table](#general-features-comparison-table) 
+3. [Code Development Comparison Table](#code-development-comparison-table)
+4. [Conclusion](#conclusion)
+5. [Appendix](#appendix)
 
 ## Codebot Overview
 This section offers a detailed introduction each codebot, highlighting their essential components, functionalities, and the significant advantages they provide. 
@@ -74,7 +74,7 @@ Anaconda Assistant is an AI-powered helper specialized in Python programming and
 - **Optimization & Performance:** Suggests code improvements, memory optimization techniques, and efficient data processing methods, particularly for large datasets and complex computations.
 
 ## General Features Comparison Table
-The table below provides information on each codebot based on topics of general info, functionality, integration, and benchmarking. Additional notes are given in the [Appendix]().
+The table below provides information on each codebot based on topics of general info, functionality, integration, and benchmarking. Additional notes are given in the [Appendix](#general-features-comparison-table-additional-notes).
 >[!NOTE]
 > - **Multipurpose Use** was evaluated based on whether the bot could conduct general LLM tasks (e.g., summarization) and code development.
 > - **Speed scores** consisted of the maximum speed at which bots provided outputs.
@@ -109,7 +109,7 @@ The table below provides information on each codebot based on topics of general 
             <td>2.25.1</td>
             <td>Copilot: 1.267.0; Copilot Chat: 0.24.0</td>
             <td>4.1.0</td>
-            <td>2.29.0/td>
+            <td>2.29.0</td>
         </tr>
         <tr>
             <th rowspan=1>FedRAMP Approved</th>
@@ -139,7 +139,7 @@ The table below provides information on each codebot based on topics of general 
         </tr>
         <tr>
             <th rowspan=1>Offline Use</th>
-            <td title="A sweet red fruit.">Apple</td>
+            <td>AWS Private Link<sup><a href="#fn2" id="ref2">2</a></sup></td>
             <td>No</td>
             <td>No</td>
             <td>No</td>
@@ -151,14 +151,14 @@ The table below provides information on each codebot based on topics of general 
             <td>No</td>
             <td>Yes</td>
             <td>Yes</td>
-            <td>Limited Access</td>
+            <td>Limited Access<sup><a href="#fn7" id="ref7">7</a></sup></td>
         </tr>
         <tr>
             <th rowspan=1>Data Security</th>
             <td>Data encryption at rest and in transit. 90-day data retention policy. Opt-out options are available to enhance security (e.g., data sharing/storage)</td>
             <td>Data encryption at rest and in transit. Opt-out options are available to enhance security (e.g., data sharing/storage).  </td>
             <td>Data encryption at rest and in transit; Restricts access. Filtering code to remove sensitive data (API, passwords). Does not save or share your data</td>
-            <td>Data encryption at rest and in transit; Opt-out options are available to enhance security (e.g,. data sharing/storage)</td>
+            <td>Data encryption at rest and in transit; Opt-out options are available to enhance security (e.g,. data sharing/storage)<sup><a href="#fn6" id="ref6">6</a></sup></td>
             <td>No security features mentioned </td>
         </tr>
         <tr>
@@ -166,7 +166,7 @@ The table below provides information on each codebot based on topics of general 
             <td>No</td>
             <td>Yes</td>
             <td>Yes</td>
-            <td>Yes</td>
+            <td>Yes<sup><a href="#fn5" id="ref5">5</a></sup></td>
             <td>Yes</td>
         </tr>
         <tr>
@@ -191,13 +191,13 @@ The table below provides information on each codebot based on topics of general 
             <th rowspan=1>Installation Method</th>
             <td>Installed as a plugin on extension in various IDEs</td>
             <td>Installed as an extension in various IDEs</td>
-            <td> Installed as an extension in various IDEs</td>
+            <td>Installed as an extension in various IDEs</td>
             <td>Installed within Navigator as Anaconda Toolbox</td>
             <td>Installed via Jupyter extension or `pip` installation</td>
         </tr>
         <tr>
             <th rowspan=1>IDE Support</th>
-            <td>JetBrains, Visual Studio Code, AWS Cloud, AWS Lambda console</td>
+            <td>JetBrains, Visual Studio Code, AWS Cloud, AWS Lambda console, JupyterLab via Sagemaker AI<sup><a href="#fn1" id="ref1">1</a></sup></td>
             <td>Visual Studio Code, JetBrains IDEs (IntelliJ, PyCharm, GoLand, WebStorm), Cloud Workstations, and Cloud Shell Editor</td>
             <td>Visual Studio Code, Visual Studio, PyCharm, IntelliJ IDEA, Eclipse, Atom, Sublime Text</td>
             <td>JupyterLab via Anaconda Navigator</td>
@@ -206,7 +206,7 @@ The table below provides information on each codebot based on topics of general 
         <tr>
             <th rowspan=1>API Support</th>
             <td>Available</td>
-            <td>Available</td>
+            <td>Available<sup><a href="#fn3" id="ref3">3</a></sup></td>
             <td>Available</td>
             <td>None mentioned</td>
             <td>None mentioned</td>
@@ -225,7 +225,7 @@ The table below provides information on each codebot based on topics of general 
             <th rowspan=1>Consistency</th>
             <td>Yes</td>
             <td>Yes</td>
-            <td>Yes</td>
+            <td>Yes<sup><a href="#fn4" id="ref4">4</a></sup></td>
             <td>No</td>
             <td>Dependent on the model</td>
         </tr>
@@ -233,7 +233,7 @@ The table below provides information on each codebot based on topics of general 
 </table>
 
 ## Code Development Comparison Table
-Each test is designed to assess the skills of each model using prompts based on popular programming languages and workflow managers. The models were evaluated according to the following criteria: prompt requirements, language proficiency, context, and error handling. Additional observations/notes can be found in the [Appendix]().
+Each test is designed to assess the skills of each model using prompts based on popular programming languages and workflow managers. The models were evaluated according to the following criteria: prompt requirements, language proficiency, context, and error handling. Additional observations/notes can be found in the [Appendix](#code-development-comparison-table-additional-notes).
 
 The table below presents the evaluation criteria along with the corresponding scores: 
 0 = No, 1 = Somewhat, 2 = Yes  
@@ -243,10 +243,10 @@ The table below presents the evaluation criteria along with the corresponding sc
         <tr>
             <th>Test</th>
             <th>Criteria</th>
-            <th>Amazon Q Developer</th>
-            <th>Gemini Code Assist</th>
+            <th>Amazon Q Developer<sup><a href="#fn1t2" id="ref1t2">1,</a></sup><sup><a href="#fn2t2" id="ref2t2">2</a></sup></th>
+            <th>Gemini Code Assist<sup><a href="#fn6t2" id="ref6t2">6</a></sup></th>
             <th>GitHub Copilot</th>
-            <th>Anaconda AI Assistant</th>
+            <th>Anaconda AI Assistant<sup><a href="#fn17t2" id="ref17t2">17</a></sup></th>
             <th>Jupyter AI</th>
         </tr>
     </thead>
@@ -272,9 +272,9 @@ The table below presents the evaluation criteria along with the corresponding sc
         <tr>
             <th rowspan=1>Includes comments and notes</th>
             <td>1</td>
+            <td>1<sup><a href="#fn3t2" id="ref3t2">3</a></sup></td>
             <td>1</td>
-            <td>1</td>
-            <td>2/td>
+            <td>2</td>
             <td>2</td>
         </tr>
         <tr>
@@ -291,7 +291,7 @@ The table below presents the evaluation criteria along with the corresponding sc
             <td>2</td>
             <td>2</td>
             <td>2</td>
-            <td>-</td>
+            <td>-<sup><a href="#fn11t2" id="ref11t2">11</a></sup></td>
             <td>2</td>
         </tr>
         <tr>
@@ -340,8 +340,8 @@ The table below presents the evaluation criteria along with the corresponding sc
             <th rowspan=1>Includes comments and notes</th>
             <td>2</td>
             <td>2</td>
-            <td>1</td>
-            <td>1/td>
+            <td>1<sup><a href="#fn7t2" id="ref7t2">7</a></sup></td>
+            <td>1<sup><a href="#fn12t2" id="ref12t2">12</a></sup></td>
             <td>2</td>
         </tr>
         <tr>
@@ -360,37 +360,37 @@ The table below presents the evaluation criteria along with the corresponding sc
             <td>2</td>
             <td>2</td>
             <td>2</td>
-            <td>1</td>
+            <td>1<sup><a href="#fn9t2" id="ref9t2">9</a></sup></td>
         </tr>
         <tr>
             <th rowspan=1>Demonstrates proficiency in language</th>
             <td>2</td>
             <td>2</td>
-            <td>1</td>
-            <td>1</td>
+            <td>1<sup><a href="#fn8t2" id="ref8t2">8</a></sup></td>
+            <td>1<sup><a href="#fn13t2" id="ref13t2">13</a></sup></td>
             <td>1</td>
         </tr>
         <tr>
             <th rowspan=1>Includes comments and notes</th>
             <td>1</td>
-            <td>1</td>
-            <td>1</td>
-            <td>1/td>
+            <td>1<sup><a href="#fn3t2" id="ref3t2">3,</a></sup><sup><a href="#fn4t2" id="ref4t2">4</a></sup></td>
+            <td>1<sup><a href="#fn7t2" id="ref7t2">7</a></sup></td>
+            <td>1<sup><a href="#fn12t2" id="ref12t2">12,</a></sup><sup><a href="#fn13t2" id="ref13t2">13</a></sup></td>
             <td>2</td>
         </tr>
         <tr>
           <th rowspan=1>Error Handling</th>
             <td>1</td>
-            <td>1</td>
+            <td>1<sup><a href="#fn5t2" id="ref5t2">5</a></sup></td>
             <td>2</td>
-            <td>1</td>
+            <td>1<sup><a href="#fn14t2" id="ref14t2">14</a></sup></td>
             <td>1</td>
         </tr>
         <tr>
             <th rowspan=5>Error Debugging: WDL</th>
         </tr>
             <th rowspan=1>Fulfills prompt requirements</th>
-            <td>2</td>
+            <td>2<sup><a href="#fn10t2" id="ref10t2">10</a></sup></td>
             <td>2</td>
             <td>2</td>
             <td>2</td>
@@ -406,10 +406,10 @@ The table below presents the evaluation criteria along with the corresponding sc
         </tr>
         <tr>
             <th rowspan=1>Includes comments and notes</th>
-            <td>1/td>
+            <td>1</td>
             <td>2</td>
             <td>2</td>
-            <td>1/td>
+            <td>1</td>
             <td>0</td>
         </tr>
         <tr>
@@ -418,7 +418,7 @@ The table below presents the evaluation criteria along with the corresponding sc
             <td>2</td>
             <td>2</td>
             <td>1</td>
-            <td>0</td>
+            <td>0<sup><a href="#fn15t2" id="ref15t2">15</a></sup></td>
         </tr>
         <tr>
             <th rowspan=5>Optimization: BASH</th>
@@ -427,7 +427,7 @@ The table below presents the evaluation criteria along with the corresponding sc
             <td>2</td>
             <td>2</td>
             <td>2</td>
-            <td>1</td>
+            <td>1<sup><a href="#fn16t2" id="ref16t2">16</a></sup></td>
             <td>2</td>
         </tr>
         <tr>
@@ -443,7 +443,7 @@ The table below presents the evaluation criteria along with the corresponding sc
             <td>1</td>
             <td>2</td>
             <td>2</td>
-            <td>1/td>
+            <td>1</td>
             <td>2</td>
         </tr>
         <tr>
@@ -472,33 +472,51 @@ Anaconda AI Assistant demonstrates its significant capabilities as an AI-powered
 
 ## Appendix
 ### General Features Comparison Table Additional Notes:
+<sup id="fn1">1. Anaconda AI Assistant faced some difficulty referencing code within the Jupyter notebook.<a href="#ref1" title="Jump back to footnote 1 in the table.">↩</a></sup>
 
-<p id="footnote1"><sup>1</sup> Apples are sourced from local farms.</p>
+<sup id="fn2">2. Offline use of Amazon Q is only supported in one US region currently<a href="#ref2" title="Jump back to footnote 2 in the table.">↩</a></sup>
 
+<sup id="fn3">3.GitHub Copilot remained consistent with the scripts it provided, the explanations sometimes varied slightly, often including additional suggestions. Additionally, GitHub Copilot has general chat capabilities, but it struggled to reference chat history when asked to summarize a sentence, occasionally referencing the open file in the IDE instead.<a href="#ref3" title="Jump back to footnote 3 in the table.">↩</a></sup>
 
-[^1]: Offline use of Amazon Q is only supported in one US region currently
-[^2]: GitHub Copilot's API support is available only at the business or enterprise level for checking account metrics.
-•	3 GitHub Copilot remained consistent with the scripts it provided, the explanations sometimes varied slightly, often including additional suggestions. Additionally, GitHub Copilot has general chat capabilities, but it struggled to reference chat history when asked to summarize a sentence, occasionally referencing the open file in the IDE instead.
-•	4 Anaconda AI Assistant provides information across platforms but specifically API information of what python tools to install and providing script to connect to different platform services. 
-•	5 Anaconda AI Assistant allows you to opt out of sharing data with Anaconda but it will still send inquires to OpenAI.
-•	Anaconda AI Assistant faced some difficulty referencing code within the Jupyter notebook.
-•	6 Jupyter AI allows for interaction with code found in notebook cells
+<sup id="fn4">4. Anaconda AI Assistant provides information across platforms but specifically API information of what python tools to install and providing script to connect to different platform services.<a href="#ref4" title="Jump back to footnote 4 in the table.">↩</a></sup>
 
-Code Development Comparison Table Additional Notes:
-•	Amazon Q Developer required specific instructions to provide an explanation of script outputted. 
-•	Amazon Q Developer’s ability to produce error-free code varied. Minor errors were present in Python, Nextflow, and BASH scripts. Further prompting and troubleshooting sometimes allowed error-free code to be produced.
-•	Gemini Code Assist did not provide instructions on installation steps and workflow execution in certain tests such as Python scripting and code conversion. 
-•	1 When producing multiple files in the Python to Nextflow conversion test, Gemini did not specify each file name, leading to a lack of clarity in the output. Further prompting and clarification aided in improving the clarity of responses. 
-•	2 The Gemini Code Assist output contained syntax errors in tests such as the Python to Nextflow conversion, resulting in an error message when parsing input files. Further troubleshooting did not resolve the issue.
-•	GitHub Copilot sometimes requires further instruction to provide installation details on the programming language itself (Python, Nextflow) when suppling context to the output.
-•	3 GitHub Copilot had trouble providing consistent folders structure instructions and file names for Nextflow and Snakemake workflows. Sometimes providing different information between the script and explanation. 
-•	4 When creating the Nextflow config file GitHub Copilot encountered difficulty providing the correct format and syntax for specifying docker containers per workflow process. Further prompting mitigated the error.
-•	5 In the Python to Nextflow conversion test, Jupyter AI produced a truncated output that ended abruptly in the middle of a file was produced. Due to this incomplete response, the output did not run to completion.  
-•	6 In the error debugging test, Jupyter AI did not recognize the WDL syntax. When prompted, a “ValueError” occurred. The codebot was able to answer theoretical questions related to WDL.
-•	7 Anaconda AI Assistant was not tested on R scripting because the documentation states it is only knowledgeable in Python and Bash scripting.
-•	8 Activating and switching conda environments proved difficult with instructions given, required further prompting. 
-•	9 Folder structures for workflow managers proved difficult for Anaconda AI Assistant to provide instruction on for Nextflow conversion test.  Script didn’t seem to provide up to date practices and syntax.
-•	10 Nextflow conversion test proved difficult for Anaconda AI Assistant resulting in syntax error specifically with channels. Further troubleshooting did not resolve the issue.
-•	11Anaconda AI Assistant required further prompting to resolve errors for the WDL Error Debugging test.
-•	12 Anaconda AI Assistant converted bash scripts and commands to Python when not asked to. 
-•	Some outputted code or scripts (Bash, WDL, Nextflow) Anaconda AI Assistant provided contained headers that caused errors. Commenting out headers resolved the issue.
+<sup id="fn5">5. Anaconda AI Assistant allows you to opt out of sharing data with Anaconda but it will still send inquires to OpenAI.<a href="#ref5" title="Jump back to footnote 5 in the table.">↩</a></sup>
+
+<sup id="fn6">6. Anaconda AI Assistant allows you to opt out of sharing data with Anaconda but it will still send inquires to OpenAI.<a href="#ref6" title="Jump back to footnote 6 in the table.">↩</a></sup>
+
+<sup id="fn7">7. Jupyter AI allows for interaction with code found in notebook cells<a href="#ref7" title="Jump back to footnote 7 in the table.">↩</a></sup>
+
+### Code Development Comparison Table Additional Notes:
+<sup id="fn1t2">1. Over all Amazon Q Developer required specific instructions to provide an explanation of script outputted.<a href="#ref1t2" title="Jump back to footnote 1 in the table.">↩</a></sup>
+
+<sup id="fn2t2">2. Over all Amazon Q Developer’s ability to produce error-free code varied. Minor errors were present in Python, Nextflow, and BASH scripts. Further prompting and troubleshooting sometimes allowed error-free code to be produced.<a href="#ref2t2" title="Jump back to footnote 2 in the table.">↩</a></sup>
+
+<sup id="fn3t2">3. Over all Gemini Code Assist did not provide instructions on installation steps and workflow execution in certain tests like Python scripting and code conversion.<a href="#ref3t2" title="Jump back to footnote 3 in the table.">↩</a></sup>
+
+<sup id="fn4t2">4. When producing multiple files in the Python to Nextflow conversion test, Gemini did not specify each file name, leading to a lack of clarity in the output. Further prompting and clarification aided in improving the clarity of responses. <a href="#ref4t2" title="Jump back to footnote 4 in the table.">↩</a></sup>
+
+<sup id="fn5t2">5. The Gemini Code Assist output contained syntax errors in tests such as the Python to Nextflow conversion, resulting in an error message when parsing input files. Further troubleshooting did not resolve the issue.<a href="#ref5t2" title="Jump back to footnote 5 in the table.">↩</a></sup>
+
+<sup id="fn6t2">6. Over all GitHub Copilot sometimes requires further instruction to provide installation details on the programming language itself (Python, Nextflow) when suppling context to the output.<a href="#ref6t2" title="Jump back to footnote 6 in the table.">↩</a></sup>
+
+<sup id="fn7t2">7. GitHub Copilot had trouble providing consistent folders structure instructions and file names for Nextflow and Snakemake workflows. Sometimes providing different information between the script and explanation.<a href="#ref7t2" title="Jump back to footnote 7 in the table.">↩</a></sup>
+
+<sup id="fn8t2">8. When creating the Nextflow config file GitHub Copilot encountered difficulty providing the correct format and syntax for specifying docker containers per workflow process. Further prompting mitigated the error.<a href="#ref8t2" title="Jump back to footnote 8 in the table.">↩</a></sup>
+
+<sup id="fn9t2">9. In the Python to Nextflow conversion test, Jupyter AI produced a truncated output that ended abruptly in the middle of a file was produced. Due to this incomplete response, the output did not run to completion.<a href="#ref9t2" title="Jump back to footnote 9 in the table.">↩</a></sup>
+
+<sup id="fn10t2">10. In the error debugging test, Jupyter AI did not recognize the WDL syntax. When prompted, a “ValueError” occurred. The codebot was able to answer theoretical questions related to WDL.<a href="#ref10t2" title="Jump back to footnote 10 in the table.">↩</a></sup>
+
+<sup id="fn11t2">11. Anaconda AI Assistant was not tested on R scripting because the documentation states it is only knowledgeable in Python and Bash scripting.<a href="#ref11t2" title="Jump back to footnote 11 in the table.">↩</a></sup>
+
+<sup id="fn12t2">12. Activating and switching conda environments proved difficult with instructions given, required further prompting.<a href="#ref12t2" title="Jump back to footnote 12 in the table.">↩</a></sup>
+
+<sup id="fn13t2">13. Folder structures for workflow managers proved difficult for Anaconda AI Assistant to provide instruction on for Nextflow conversion test. Script didn’t seem to provide up to date practices and syntax.<a href="#ref13t2" title="Jump back to footnote 13 in the table.">↩</a></sup>
+
+<sup id="fn14t2">14. Nextflow conversion test proved difficult for Anaconda AI Assistant resulting in syntax error specifically with channels. Further troubleshooting did not resolve the issue.<a href="#ref14t2" title="Jump back to footnote 14 in the table.">↩</a></sup>
+
+<sup id="fn15t2">15. Anaconda AI Assistant required further prompting to resolve errors for the WDL Error Debugging test.<a href="#ref15t2" title="Jump back to footnote 15 in the table.">↩</a></sup>
+
+<sup id="fn16t2">16. The Anaconda AI Assistant converted bash scripts and commands to Python when it should have remained in bash.<a href="#ref16t2" title="Jump back to footnote 16 in the table.">↩</a></sup>
+
+<sup id="fn17t2">17. Over all some outputted code or scripts (Bash, WDL, Nextflow) Anaconda AI Assistant provided contained headers that caused errors. Commenting out headers resolved the issue.<a href="#ref17t2" title="Jump back to footnote 17 in the table.">↩</a></sup>
