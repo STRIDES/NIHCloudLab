@@ -3,6 +3,10 @@
 This document provides a comprehensive comparison of five distinct codebots: Amazon Q Developer, Gemini Code Assist, GitHub Copilot, Anaconda AI Assistant, and Jupyter AI. The comparison is structured into three main sections: an overview of the key features of each codebot, a detailed feature comparison table, and a coding comparison table. By examining these aspects, the document aims to offer a thorough understanding of the capabilities and functionalities of each codebot.
 The word ‘codebot’ in the document refers to tools that comprise of a user interface (UI), AI assistant, and a generative AI model (GenAI). What are AI assistants, you may ask? AI assistants are applications or systems that leverage AI technologies, including GenAI models, to assist users in performing tasks. These assistants are designed to understand user commands, provide information, and perform actions based on user input. The order of operation for these codebots is as follows: the user interacts with the user interface by submitting inquiries and viewing results. Once a user has submitted an inquiry, the AI assistant acts as an intermediary, focusing on enhancing the user experience by providing suggestions, information, and forwarding inquiries to the GenAI model. Sometimes, they even rewrite the user's inquiry to ensure the model can better understand it. The GenAI model works in the backend, focusing on generating new content and understanding patterns in data.
 
+<div align="center">
+  <img src="../images/Codebot_comp1.png" alt="diagram"  width="500"
+</div>
+
 >[!IMPORTANT]
 > **Disclaimer:** This document does not aim to discourage users from using any of the codebots mentioned. Our primary goal for this document is to showcase the merits and features offered by each codebot. The coding tests conducted use a limited number of prompts, and our observations are derived from this small subset of tests. Results may vary depending on the data and prompts given to the bots.
 
