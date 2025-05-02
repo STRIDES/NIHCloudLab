@@ -80,6 +80,7 @@ The table below provides information on each codebot based on topics of general 
 > - **Speed scores** consisted of the maximum speed at which bots provided outputs.
 > - **Consistency** was proven true if the output given by the bot remained the same when the same question was asked twice.
 
+
 <table>
     <thead>
         <tr>
@@ -97,7 +98,9 @@ The table below provides information on each codebot based on topics of general 
             <th rowspan=4>General Info</th>
         </tr>
             <th rowspan=1>Developer</th>
-            <td>AWS</td>
+            <td>
+              AWS<sup><a href="#fn1" id="ref1">1</a></sup>
+              </td>
             <td>Google Cloud</td>
             <td>Microsoft/OpenAI</td>
             <td>Anaconda</td>
@@ -139,7 +142,7 @@ The table below provides information on each codebot based on topics of general 
         </tr>
         <tr>
             <th rowspan=1>Offline Use</th>
-            <td title="A sweet red fruit.">Apple</td>
+            <td>Riga 1, Cellula 1 <span data-qmd="lorem ^[lorem ipsum]"></span></td>
             <td>No</td>
             <td>No</td>
             <td>No</td>
@@ -274,7 +277,7 @@ The table below presents the evaluation criteria along with the corresponding sc
             <td>1</td>
             <td>1</td>
             <td>1</td>
-            <td>2/td>
+            <td>2</td>
             <td>2</td>
         </tr>
         <tr>
@@ -341,7 +344,7 @@ The table below presents the evaluation criteria along with the corresponding sc
             <td>2</td>
             <td>2</td>
             <td>1</td>
-            <td>1/td>
+            <td>1</td>
             <td>2</td>
         </tr>
         <tr>
@@ -375,7 +378,7 @@ The table below presents the evaluation criteria along with the corresponding sc
             <td>1</td>
             <td>1</td>
             <td>1</td>
-            <td>1/td>
+            <td>1</td>
             <td>2</td>
         </tr>
         <tr>
@@ -406,10 +409,10 @@ The table below presents the evaluation criteria along with the corresponding sc
         </tr>
         <tr>
             <th rowspan=1>Includes comments and notes</th>
-            <td>1/td>
+            <td>1</td>
             <td>2</td>
             <td>2</td>
-            <td>1/td>
+            <td>1</td>
             <td>0</td>
         </tr>
         <tr>
@@ -443,7 +446,7 @@ The table below presents the evaluation criteria along with the corresponding sc
             <td>1</td>
             <td>2</td>
             <td>2</td>
-            <td>1/td>
+            <td>1</td>
             <td>2</td>
         </tr>
         <tr>
@@ -473,18 +476,18 @@ Anaconda AI Assistant demonstrates its significant capabilities as an AI-powered
 ## Appendix
 ### General Features Comparison Table Additional Notes:
 
-<p id="footnote1"><sup>1</sup> Apples are sourced from local farms.</p>
+<sup id="fn1">1. [Text of footnote 1]<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup>
 
+1. Offline use of Amazon Q is only supported in one US region currently
+2. GitHub Copilot's API support is available only at the business or enterprise level for checking account metrics.
+3. GitHub Copilot remained consistent with the scripts it provided, the explanations sometimes varied slightly, often including additional suggestions. Additionally, GitHub Copilot has general chat capabilities, but it struggled to reference chat history when asked to summarize a sentence, occasionally referencing the open file in the IDE instead.
+4. Anaconda AI Assistant provides information across platforms but specifically API information of what python tools to install and providing script to connect to different platform services.
+5.  Anaconda AI Assistant allows you to opt out of sharing data with Anaconda but it will still send inquires to OpenAI.
+- Anaconda AI Assistant faced some difficulty referencing code within the Jupyter notebook.
+6. Jupyter AI allows for interaction with code found in notebook cells
 
-[^1]: Offline use of Amazon Q is only supported in one US region currently
-[^2]: GitHub Copilot's API support is available only at the business or enterprise level for checking account metrics.
-•	3 GitHub Copilot remained consistent with the scripts it provided, the explanations sometimes varied slightly, often including additional suggestions. Additionally, GitHub Copilot has general chat capabilities, but it struggled to reference chat history when asked to summarize a sentence, occasionally referencing the open file in the IDE instead.
-•	4 Anaconda AI Assistant provides information across platforms but specifically API information of what python tools to install and providing script to connect to different platform services. 
-•	5 Anaconda AI Assistant allows you to opt out of sharing data with Anaconda but it will still send inquires to OpenAI.
-•	Anaconda AI Assistant faced some difficulty referencing code within the Jupyter notebook.
-•	6 Jupyter AI allows for interaction with code found in notebook cells
+## Code Development Comparison Table Additional Notes:
 
-Code Development Comparison Table Additional Notes:
 •	Amazon Q Developer required specific instructions to provide an explanation of script outputted. 
 •	Amazon Q Developer’s ability to produce error-free code varied. Minor errors were present in Python, Nextflow, and BASH scripts. Further prompting and troubleshooting sometimes allowed error-free code to be produced.
 •	Gemini Code Assist did not provide instructions on installation steps and workflow execution in certain tests such as Python scripting and code conversion. 
