@@ -139,7 +139,7 @@ The table below provides information on each codebot based on topics of general 
         </tr>
         <tr>
             <th rowspan=1>Offline Use</th>
-            <td>Requires configuration of AWS Private Link</td>
+            <td title="A sweet red fruit.">Apple</td>
             <td>No</td>
             <td>No</td>
             <td>No</td>
@@ -155,10 +155,10 @@ The table below provides information on each codebot based on topics of general 
         </tr>
         <tr>
             <th rowspan=1>Data Security</th>
-            <td>Data encryption at rest and in transit. 90 day data retention policy. Opt-out options are available to enhance security (e.g. data sharing/storage)</td>
-            <td>Data encryption at rest and in transit. Opt-out options are available to enhance security (e.g. data sharing/storage).  </td>
+            <td>Data encryption at rest and in transit. 90-day data retention policy. Opt-out options are available to enhance security (e.g., data sharing/storage)</td>
+            <td>Data encryption at rest and in transit. Opt-out options are available to enhance security (e.g., data sharing/storage).  </td>
             <td>Data encryption at rest and in transit; Restricts access. Filtering code to remove sensitive data (API, passwords). Does not save or share your data</td>
-            <td>Data encryption at rest and in transit; Opt-out options are available to enhance security (e.g. data sharing/storage.)</td>
+            <td>Data encryption at rest and in transit; Opt-out options are available to enhance security (e.g,. data sharing/storage)</td>
             <td>No security features mentioned </td>
         </tr>
         <tr>
@@ -175,7 +175,7 @@ The table below provides information on each codebot based on topics of general 
             <td>Standard: Monthly: $22.80 per user per month; Annual: $19 per user per month with an upfront annual commitment; Enterprise: Monthly: $54 per user per month. Annual: $45 per user per month with an upfront annual commitment </td>
             <td>Free (limited to 50 chat requests and 2,000 completions); Pro: $10/month; Business: $19/per user per month; Enterprise: $39/per user per month</td>
             <td> Free (limited to 5GM of memory); Starter: $15 per user/per month; Starter: $15 per user/per month; Business: $15 per user/per month; Enterprise: Custom</td>
-            <td>Open source and free to use ; Charges associated with using the 3rd party models may be incurred.</td>
+            <td>Open source and free to use; Charges associated with using the 3rd party models may be incurred.</td>
         </tr>
         <tr>
             <th rowspan=5>Integration</th>
@@ -201,7 +201,7 @@ The table below provides information on each codebot based on topics of general 
             <td>Visual Studio Code, JetBrains IDEs (IntelliJ, PyCharm, GoLand, WebStorm), Cloud Workstations, and Cloud Shell Editor</td>
             <td>Visual Studio Code, Visual Studio, PyCharm, IntelliJ IDEA, Eclipse, Atom, Sublime Text</td>
             <td>JupyterLab via Anaconda Navigator</td>
-            <td>JupyterLab, Jupyter Notebook , Google Colab, VS Code </td>
+            <td>JupyterLab, Jupyter Notebook, Google Colab, VS Code </td>
         </tr>
         <tr>
             <th rowspan=1>API Support</th>
@@ -232,13 +232,273 @@ The table below provides information on each codebot based on topics of general 
     </tbody>
 </table>
 
+## Code Development Comparison Table
+Each test is designed to assess the skills of each model using prompts based on popular programming languages and workflow managers. The models were evaluated according to the following criteria: prompt requirements, language proficiency, context, and error handling. Additional observations/notes can be found in the [Appendix]().
+
+The table below presents the evaluation criteria along with the corresponding scores: 
+0 = No, 1 = Somewhat, 2 = Yes  
+
+<table>
+    <thead>
+        <tr>
+            <th>Test</th>
+            <th>Criteria</th>
+            <th>Amazon Q Developer</th>
+            <th>Gemini Code Assist</th>
+            <th>GitHub Copilot</th>
+            <th>Anaconda AI Assistant</th>
+            <th>Jupyter AI</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th rowspan=5>Scripting: Python</th>
+        </tr>
+            <th rowspan=1>Fulfills prompt requirements</th>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <th rowspan=1>Demonstrates proficiency in language</th>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <th rowspan=1>Includes comments and notes</th>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>2/td>
+            <td>2</td>
+        </tr>
+        <tr>
+          <th rowspan=1>Error Handling</th>
+            <td>1</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+            <th rowspan=5>Scripting: R</th>
+        </tr>
+            <th rowspan=1>Fulfills prompt requirements</th>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>-</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <th rowspan=1>Demonstrates proficiency in language</th>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>-</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <th rowspan=1>Includes comments and notes</th>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>-</td>
+            <td>2</td>
+        </tr>
+        <tr>
+          <th rowspan=1>Error Handling</th>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>-</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <th rowspan=5>Scripting: Snakemake</th>
+        </tr>
+            <th rowspan=1>Fulfills prompt requirements</th>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <th rowspan=1>Demonstrates proficiency in language</th>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <th rowspan=1>Includes comments and notes</th>
+            <td>2</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1/td>
+            <td>2</td>
+        </tr>
+        <tr>
+          <th rowspan=1>Error Handling</th>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <th rowspan=5>Code Conversion: Python to Nextflow</th>
+        </tr>
+            <th rowspan=1>Fulfills prompt requirements</th>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th rowspan=1>Demonstrates proficiency in language</th>
+            <td>2</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th rowspan=1>Includes comments and notes</th>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1/td>
+            <td>2</td>
+        </tr>
+        <tr>
+          <th rowspan=1>Error Handling</th>
+            <td>1</td>
+            <td>1</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <th rowspan=5>Error Debugging: WDL</th>
+        </tr>
+            <th rowspan=1>Fulfills prompt requirements</th>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <th rowspan=1>Demonstrates proficiency in language</th>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <th rowspan=1>Includes comments and notes</th>
+            <td>1/td>
+            <td>2</td>
+            <td>2</td>
+            <td>1/td>
+            <td>0</td>
+        </tr>
+        <tr>
+          <th rowspan=1>Error Handling</th>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <th rowspan=5>Optimization: BASH</th>
+        </tr>
+            <th rowspan=1>Fulfills prompt requirements</th>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <th rowspan=1>Demonstrates proficiency in language</th>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <th rowspan=1>Includes comments and notes</th>
+            <td>1</td>
+            <td>2</td>
+            <td>2</td>
+            <td>1/td>
+            <td>2</td>
+        </tr>
+        <tr>
+          <th rowspan=1>Error Handling</th>
+            <td>1</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+    </tbody>
+</table>
+
+## Conclusion
+The development of codebots has significantly advanced the coding and software development process. Each codebot offers valuable features that can reduce the time required for code development, assist users in producing error-free code, and serve as a learning tool through the explanations provided. The comparison performed in this document demonstrated the key strengths each codebot offers. 
+### Amazon Q Developer
+The codebot consistently meets all prompt requirements across various scripting tasks, demonstrating a thorough understanding of task specifications. It shows proficiency in multiple languages such as Python, R, Snakemake, and Nextflow. While the codebot includes comments and explanations to aid users, there is room for improvement, as some scripts lacked guidance on implementation and readability. The codebot's ability to produce error-free code varies; while some errors could be resolved through additional prompting, this was not always the case. A standout feature is its ability to automatically modify and review files within the working directory, enhancing workflow efficiency. The inclusion of AWS-specific data in the model pre-training is a unique asset that Amazon Q Developer offers. Users with a specific need to understand the AWS cloud infrastructure in combination with coding capabilities would benefit from using Amazon Q Developer.
+### Gemini Code Assist 
+Gemini Code Assist demonstrated a thorough knowledge of the various scripting languages tested. The instructions and comments provided by Gemini allowed for a clear understanding of the output and served as a valuable learning aid for users. The codebot's ability to answer questions on various topics, including other cloud providers, was appreciated. It performed well in languages included in the training data, such as Python, R, and BASH (with Snakemake being based on Python). However, its performance was slightly less effective when working with Nextflow, which uses Groovey a language not explicitly covered in its training data. Overall, Gemini is a powerful coding assistant that can significantly enhance the coding experience of users through thoughtful insights and efficient code development.
+### Jupyter AI 
+Jupyter AI performed well in scripting languages such as Python, BASH, R, and Snakemake. A standout feature is its ability to produce codebot interaction results directly in a Python notebook output, aiding in documentation and creating informative records of the results. This feature enhances the user experience by making it easier to track and understand outcomes. Additionally, Jupyter AI's ability to connect to various models allows users to choose the model best suited to their needs. However, there were some limitations, such as results being cut short and the extension installation process being slightly difficult. Performance in Nextflow and WDL was not as successful. Despite these challenges, Jupyter AI offers unique features and use cases that can significantly benefit users.
+### GitHub Copilot
+GitHub Copilot performed well when working directly with programming scripts such as Python, R, and Bash. It provided clear instructions on how to install the necessary prerequisites with minor exclusions, like installing the programming language itself. When working with workflow managers, GitHub Copilot encountered some challenges with providing folder and file names and outlining folder structures. One of GitHub Copilot's unique abilities was showcased when working with Nextflow. It offered to create an entire workspace with a push of a button, showing its seamless integration with the IDE. It created a complete Nextflow workflow in the local environment, including a complete folder structure containing the Nextflow script, config files, schema, and an included README file with instructions to run the workflow. Although the script ran into errors, GitHub Copilot was able to correct these issues with minimal instruction. GitHub Copilot offers features and capabilities for users of all skill levels with a wide range of knowledge, excellent error handling, and special features that can enhance user experience.
+### Anaconda AI Assistant
+Anaconda AI Assistant demonstrates its significant capabilities as an AI-powered helper for Python programming and Jupyter Notebook environments, providing step-by-step guidance for code generation, debugging, and package recommendations, particularly in the context of data science and analytics tools. Its strengths lie in its proficiency with essential data science libraries such as pandas, numpy, matplotlib, and scikit-learn, and its ability to offer clear and concise support for data manipulation, analysis, and visualization tasks. However, it encounters difficulties with workflow managers, particularly in providing the correct syntax and guidance for folder structures, although some errors were resolved with further prompting. This codebot is best suited for users with some coding knowledge or those familiar with the specific use cases they wish to pursue. Overall, the Anaconda AI Assistant proves to be a valuable tool for Python programmers and data scientists, offering detailed support and optimization techniques for a wide range of tasks.
+
+## Appendix
+### General Features Comparison Table Additional Notes:
+
+<p id="footnote1"><sup>1</sup> Apples are sourced from local farms.</p>
 
 
+[^1]: Offline use of Amazon Q is only supported in one US region currently
+[^2]: GitHub Copilot's API support is available only at the business or enterprise level for checking account metrics.
+•	3 GitHub Copilot remained consistent with the scripts it provided, the explanations sometimes varied slightly, often including additional suggestions. Additionally, GitHub Copilot has general chat capabilities, but it struggled to reference chat history when asked to summarize a sentence, occasionally referencing the open file in the IDE instead.
+•	4 Anaconda AI Assistant provides information across platforms but specifically API information of what python tools to install and providing script to connect to different platform services. 
+•	5 Anaconda AI Assistant allows you to opt out of sharing data with Anaconda but it will still send inquires to OpenAI.
+•	Anaconda AI Assistant faced some difficulty referencing code within the Jupyter notebook.
+•	6 Jupyter AI allows for interaction with code found in notebook cells
 
-
-
-
-
-
-
-
+Code Development Comparison Table Additional Notes:
+•	Amazon Q Developer required specific instructions to provide an explanation of script outputted. 
+•	Amazon Q Developer’s ability to produce error-free code varied. Minor errors were present in Python, Nextflow, and BASH scripts. Further prompting and troubleshooting sometimes allowed error-free code to be produced.
+•	Gemini Code Assist did not provide instructions on installation steps and workflow execution in certain tests such as Python scripting and code conversion. 
+•	1 When producing multiple files in the Python to Nextflow conversion test, Gemini did not specify each file name, leading to a lack of clarity in the output. Further prompting and clarification aided in improving the clarity of responses. 
+•	2 The Gemini Code Assist output contained syntax errors in tests such as the Python to Nextflow conversion, resulting in an error message when parsing input files. Further troubleshooting did not resolve the issue.
+•	GitHub Copilot sometimes requires further instruction to provide installation details on the programming language itself (Python, Nextflow) when suppling context to the output.
+•	3 GitHub Copilot had trouble providing consistent folders structure instructions and file names for Nextflow and Snakemake workflows. Sometimes providing different information between the script and explanation. 
+•	4 When creating the Nextflow config file GitHub Copilot encountered difficulty providing the correct format and syntax for specifying docker containers per workflow process. Further prompting mitigated the error.
+•	5 In the Python to Nextflow conversion test, Jupyter AI produced a truncated output that ended abruptly in the middle of a file was produced. Due to this incomplete response, the output did not run to completion.  
+•	6 In the error debugging test, Jupyter AI did not recognize the WDL syntax. When prompted, a “ValueError” occurred. The codebot was able to answer theoretical questions related to WDL.
+•	7 Anaconda AI Assistant was not tested on R scripting because the documentation states it is only knowledgeable in Python and Bash scripting.
+•	8 Activating and switching conda environments proved difficult with instructions given, required further prompting. 
+•	9 Folder structures for workflow managers proved difficult for Anaconda AI Assistant to provide instruction on for Nextflow conversion test.  Script didn’t seem to provide up to date practices and syntax.
+•	10 Nextflow conversion test proved difficult for Anaconda AI Assistant resulting in syntax error specifically with channels. Further troubleshooting did not resolve the issue.
+•	11Anaconda AI Assistant required further prompting to resolve errors for the WDL Error Debugging test.
+•	12 Anaconda AI Assistant converted bash scripts and commands to Python when not asked to. 
+•	Some outputted code or scripts (Bash, WDL, Nextflow) Anaconda AI Assistant provided contained headers that caused errors. Commenting out headers resolved the issue.
