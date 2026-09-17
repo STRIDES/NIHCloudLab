@@ -92,10 +92,10 @@ Cloud execution of workflow languages and HPC‑style batch processing.
     - [AWS Batch](https://github.com/STRIDES/NIHCloudLabAWS/tree/main/notebooks/AWSBatch)
     - [Google Batch](https://github.com/STRIDES/NIHCloudLabGCP/tree/main/notebooks/GoogleBatch)
     - [Azure Batch](https://github.com/STRIDES/NIHCloudLabAzure?tab=readme-ov-file#microsoft-genomics-)
-    - HPC cluster configuration 
-          - [AWS](https://docs.aws.amazon.com/solutions/deploying-high-performance-computing-clusters-on-aws/)
-          - [GCP](https://docs.cloud.google.com/compute/docs/hpc/overview-hpc-clusters)
-          - [Azure](https://learn.microsoft.com/en-us/azure/architecture/guide/compute/high-performance-computing)
+    - HPC cluster configuration:
+      - [AWS](https://docs.aws.amazon.com/solutions/deploying-high-performance-computing-clusters-on-aws/)
+      - [GCP](https://docs.cloud.google.com/compute/docs/hpc/overview-hpc-clusters)
+      - [Azure](https://learn.microsoft.com/en-us/azure/architecture/guide/compute/high-performance-computing)
 
 ### 4.  Clinical & Healthcare Informatics
 Tutorials focused on clinical data systems and secure healthcare analytics.     
