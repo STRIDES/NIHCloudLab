@@ -93,6 +93,9 @@ Cloud execution of workflow languages and HPC‑style batch processing.
     - [Google Batch](https://github.com/STRIDES/NIHCloudLabGCP/tree/main/notebooks/GoogleBatch)
     - [Azure Batch](https://github.com/STRIDES/NIHCloudLabAzure?tab=readme-ov-file#microsoft-genomics-)
     - HPC cluster configuration
+          - [AWS](https://docs.aws.amazon.com/solutions/deploying-high-performance-computing-clusters-on-aws/)
+          - [GCP](https://docs.cloud.google.com/compute/docs/hpc/overview-hpc-clusters)
+          - [Azure](https://learn.microsoft.com/en-us/azure/architecture/guide/compute/high-performance-computing)
 
 ### 4.  Clinical & Healthcare Informatics
 Tutorials focused on clinical data systems and secure healthcare analytics.     
@@ -100,7 +103,6 @@ Tutorials focused on clinical data systems and secure healthcare analytics.
 #### Subtopics
 - [FHIR on Azure](https://github.com/STRIDES/NIHCloudLabAzure?tab=readme-ov-file#clinical-informatics-with-fhir-)
 - [AWS HealthLake](https://github.com/STRIDES/NIHCloudLabAWS?tab=readme-ov-file#clinical-informatics-)
-- Clinical Informatics workflows
 
 ### 5. Data Retrieval & Cloud‑Native Storage
 Accessing public datasets and performing scalable cloud queries.
@@ -112,8 +114,6 @@ Accessing public datasets and performing scalable cloud queries.
 - [SRA Data (NCBI)](https://github.com/STRIDES/NIHCloudLabGCP/tree/main/notebooks/SRADownload)
 - [BigQuery]( https://github.com/STRIDES/NIHCloudLabGCP?tab=readme-ov-file#query-a-vcf-file-in-big-query-)
 - [Azure Synapse](https://github.com/STRIDES/NIHCloudLabAzure?tab=readme-ov-file#vcf)
-- Cloud‑native handling of reference genomes and metadata
-      - 
 
 ### 6. Cloud Platform Fundamentals & Environment Setup
 Guides to using Jupyter, VMs, shutdown guards, billing insights, and CSP‑specific tooling.
