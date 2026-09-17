@@ -116,10 +116,10 @@ Accessing public datasets and performing scalable cloud queries.
 - [Azure Synapse](https://github.com/STRIDES/NIHCloudLabAzure?tab=readme-ov-file#vcf)
 
 ### 6. Cloud Platform Fundamentals & Environment Setup
-Guides to using Jupyter, VMs, shutdown guards, billing insights, and CSP‑specific tooling.
+Guides to using Jupyter, VMs, shutdown guards, billing insights, and CSP‑specific tooling.([AWS](https://github.com/STRIDES/NIHCloudLabAWS/tree/main/docs), [Azure](https://github.com/STRIDES/NIHCloudLabAzure/tree/main/docs), [GCP](https://github.com/STRIDES/NIHCloudLabGCP/tree/main/docs))
 
-#### Subtopics
-- Jupyter Notebook setup (AWS, Azure, GCP)
+#### Subtopics 
+- Jupyter Notebook setup ([AWS](https://github.com/STRIDES/NIHCloudLabAWS/blob/main/docs/Jupyter_notebook.md), [Azure](https://github.com/STRIDES/NIHCloudLabAzure/tree/main/notebooks/GenAI/initiate_jupyter_notebook), [GCP](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md))
 - VM usage and auto‑shutdown
 - Billing dashboards
 - Service-specific beginner workflows
@@ -128,10 +128,9 @@ Guides to using Jupyter, VMs, shutdown guards, billing insights, and CSP‑speci
 Advanced or niche tutorials covering newer research technologies.
 
 #### Subtopics
-- Accelerated HPC workflows
-- Advanced biomarker discovery
-- GenAI‑assisted scientific tooling
-- [AI‑enabled visualization pipelines (Azure OpenAI)](https://github.com/STRIDES/NIHCloudLabAzure/blob/main/notebooks/GenAI/notebooks/AI_enabled_visualization.ipynb)
+- [Advanced biomarker discovery](https://github.com/NIGMS/Analysis-of-Biomedical-Data-for-Biomarker-Discovery)
+- GenAI‑assisted scientific tooling (RAG chatbot, AI enabled Visualization, SQL chatbot, etc.)
+- [AI‑enabled visualization pipelines](https://github.com/STRIDES/NIHCloudLabAzure/blob/main/notebooks/GenAI/notebooks/AI_enabled_visualization.ipynb)
 
 ---
 ## How‑To Docs & Onboarding Aids
